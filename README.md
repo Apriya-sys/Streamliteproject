@@ -1,2 +1,2 @@
 # Streamliteproject
-using streamlite and pygwalker creating ui 
+Data Visulization Using streamlite and pygwalker  
