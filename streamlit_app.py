@@ -36,7 +36,8 @@ components.html(SUB_TITLE, height=80)
 # Import your data
 #df = pd.read_csv("https://kanaries-app.s3.ap-northeast-1.amazonaws.com/public-datasets/bike_sharing_dc.csv")
 #df_bike = pd.read_csv('E:\\2025\\KSR_datavizion_JAN-JUNE\\March\\dax\\Bike_Data.csv')
-df_bike = pd.read_csv('C:\\Users\\HP\\Documents\\GitHub\\Bikedata\\Bike_Data.csv')
+#df_bike = pd.read_csv('C:\\Users\\HP\\Documents\\GitHub\\Bikedata\\Bike_Data.csv')
+df_bike = pd.read_csv('Bike_Data.csv')
 
 # Embed the HTML into the Streamlit app
 pyg_html = pyg.to_html(df_bike)
